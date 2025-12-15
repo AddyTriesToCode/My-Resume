@@ -1,0 +1,124 @@
+.education-section {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 10px;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.education-item {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.degree {
+  font-size: 1.3rem;
+  color: #333;
+  margin: 0;
+  flex: 1;
+}
+
+.duration {
+  background: #667eea;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.institution {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.cgpa {
+  color: #333;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.achievements {
+  margin-top: 15px;
+}
+
+.achievements strong {
+  color: #667eea;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.achievements ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.achievements li {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.coursework {
+  margin-top: 15px;
+}
+
+.coursework strong {
+  color: #667eea;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.coursework-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.course-tag {
+  background: white;
+  color: #667eea;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  border: 1px solid #667eea;
+}
+
+@media (max-width: 768px) {
+  .education-section {
+    padding: 20px;
+  }
+  
+  .edu-header {
+    flex-direction: column;
+  }
+  
+  .degree {
+    font-size: 1.1rem;
+  }
+}

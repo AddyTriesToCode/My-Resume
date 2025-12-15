@@ -1,0 +1,120 @@
+.work-section {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.work-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.work-item {
+  padding: 25px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid #764ba2;
+  position: relative;
+}
+
+.work-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.position {
+  font-size: 1.4rem;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+
+.company {
+  color: #666;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.work-duration {
+  background: #764ba2;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.work-description {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.responsibilities {
+  margin-top: 15px;
+}
+
+.responsibilities strong {
+  color: #764ba2;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.responsibilities ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.responsibilities li {
+  margin-bottom: 8px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.tech-used {
+  margin-top: 15px;
+}
+
+.tech-used strong {
+  color: #764ba2;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-tag {
+  background: white;
+  color: #764ba2;
+  padding: 6px 14px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  border: 1px solid #764ba2;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .work-section {
+    padding: 20px;
+  }
+  
+  .work-header {
+    flex-direction: column;
+  }
+  
+  .position {
+    font-size: 1.2rem;
+  }
+}
