@@ -126,7 +126,6 @@ export const resumeData = {
         "Engineered chat agent for document Q&A: file upload → text chunking → embedding storage → similarity search → LLM synthesis"
       ],
       github: "https://github.com/AddyTriesToCode/ResearchIQ",
-      demo: "https://demo-link.com",
       impact: "Reduced customer support response time by 60%"
     },
     {
