@@ -5,7 +5,7 @@ export const resumeData = {
     email: "aditya040403@gmail.com",
     phone: "+916287097795",
     location: "Ranchi,India",
-    linkedin: "https://linkedin.com/in/yourprofile",
+    linkedin: "https://www.linkedin.com/in/aditya-raj-2600901a5",
     github: "https://github.com/AddyTriesToCode",
     portfolio: "https://yourportfolio.com",
     summary: "Passionate software developer with expertise in building innovative solutions. Focused on AI/ML and full-stack development."
