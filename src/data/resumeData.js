@@ -195,7 +195,7 @@ export const resumeData = {
     {
       id: 3,
       name: "Adventure",
-      description: "If you're reading this,let's go trekking!",
+      description: "Are you even reading this?",
       icon: "📸"
     },
     
