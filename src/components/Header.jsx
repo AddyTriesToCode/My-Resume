@@ -1,6 +1,6 @@
 import React from 'react'
 import { Paper, Typography, Box, Chip, IconButton } from '@mui/material'
-import { Email, Phone, LocationOn, LinkedIn, GitHub, Language } from '@mui/icons-material'
+import { Email, Phone, LocationOn, LinkedIn, GitHub, Download } from '@mui/icons-material'
 
 function Header({ data }) {
   return (
@@ -130,11 +130,11 @@ function Header({ data }) {
             <GitHub />
           </IconButton>
         )}
-        {data.portfolio && (
+        {data.resume && (
           <IconButton 
             component="a" 
-            href={data.portfolio} 
-            target="_blank"
+            href={data.resume}
+            download
             sx={{ 
               color: '#00d4ff',
               bgcolor: 'rgba(0, 212, 255, 0.1)',
@@ -145,7 +145,7 @@ function Header({ data }) {
               }
             }}
           >
-            <Language />
+            <Download />
           </IconButton>
         )}
       </Box>

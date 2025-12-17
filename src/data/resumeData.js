@@ -7,7 +7,7 @@ export const resumeData = {
     location: "Ranchi,India",
     linkedin: "https://www.linkedin.com/in/aditya-raj-2600901a5",
     github: "https://github.com/AddyTriesToCode",
-    portfolio: "https://yourportfolio.com",
+    resume: "/AdityaRaj-Resume.pdf",
     summary: "Passionate software developer with expertise in building innovative solutions. Focused on AI/ML and full-stack development."
   },
 
@@ -75,7 +75,7 @@ export const resumeData = {
     aiml: ["TensorFlow","Keras", "PyTorch", "Scikit-learn","RAG","Chroma Vector DB","LangChain","HuggingFace","Ollama","NLP", "Computer Vision"],
     databases: ["MongoDB", "MySQL", "PostgreSQL", "Firebase"],
     tools: ["Git", "Docker", "VS Code", "Jupyter", "Postman"],
-    cloud: ["AWS", "Google Cloud", "Heroku"],
+    cloud: ["AWS", "Google Cloud", "Azure"],
     softSkills: ["Problem Solving", "Team Collaboration", "Communication", "Leadership"]
   },
 
@@ -102,7 +102,7 @@ export const resumeData = {
       position: "	Agentic AI Developer",
       company: "Golden Bird Education",
       location: "Pune,India",
-      duration: "",
+      duration: "Sep 2025 - Dec 2025",
       type: "Internship",
       description: "Working on developing AI agents",
       responsibilities: [
@@ -142,7 +142,7 @@ export const resumeData = {
     },
     {
       id: 3,
-      name: "FactFlow - AI-Powered Fact-Checking News Aggregator",
+      name: "FactFlow - AI Powered Fact-Checking and News Aggregator",
       description: "Full-stack AI coding companion allowing code completion, real-time error diagnosis and code correction",
       technologies: ["NodeJS","Express","React","MongoDB","Vite","Google Material UI","FastAPI","Perigon","Gemini LLM","JWT, bcrypt","Custom hooks","Git Version Control"],
       features: [
@@ -151,7 +151,7 @@ export const resumeData = {
         "Personalized topic collections (Smart Collections) for users",
         "JWT-based authentication with role-based access control"
       ],
-      github: "https://github.com/AddyTriesToCode/CodeBuddy",
+      github: "https://github.com/AddyTriesToCode/FactFlow-AI",
       impact: "Successfully deployed and used by 500+ users"
     }
   ],
@@ -163,7 +163,7 @@ export const resumeData = {
       name: "Foundations of Software Testing and Validation",
       issuer: "University of Leeds",
       date: "Nov 2024",
-      link: "https://coursera.org/share/90dad5485dfec43cd84feb7e94813ade",
+      link: "https://coursera.org/share/5c470db6107d7049deba2d750b720744",
       description: "Explore various types of software testing and identify their advantages and disadvantages."
     },
     {
@@ -205,15 +205,15 @@ export const resumeData = {
   achievements: [
     {
       id: 1,
-      title: "Hackathon Winner - TechFest 2024",
-      description: "First place in 36-hour hackathon with AI-powered solution",
-      date: "Mar 2024"
+      title:"",
+      description:"",
+      date:""
     },
     {
       id: 2,
-      title: "Research Paper Published",
-      description: "Published paper on NLP techniques in IEEE conference",
-      date: "Feb 2024"
+      title: "",
+      description: "",
+      date: ""
     }
   ]
 }
