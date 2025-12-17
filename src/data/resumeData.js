@@ -104,12 +104,12 @@ export const resumeData = {
       location: "Pune,India",
       duration: "",
       type: "Internship",
-      description: "Worked on developing and maintaining web applications",
+      description: "Working on developing AI agents",
       responsibilities: [
-        "Built data preprocessing pipelines for structured and unstructured inputs using Python and Pandas, supporting AI agent workflows and improving automation reliability by 15%.",
-        "Supported BI and analytics automation using GPT APIs and LangChain, and helped communicate system behavior and insights to non-technical teams through testing and documentation"
+        "Building data preprocessing pipelines for structured and unstructured inputs using Python and Pandas, supporting AI agent workflows and improving automation reliability",
+        "BI and analytics automation using GPT APIs and LangChain, and helped communicate system behavior and insights to non-technical teams through testing and documentation"
       ],
-      technologies: ["React", "Node.js", "MongoDB", "Express.js","TensorFlow","Keras","Scikit-Learn","FastAPI","LangChain"]
+      technologies: ["Python","LangChain","TensorFlow","Keras","MongoDB","Scikit-Learn", "Javascript","FastAPI"]
     }
   ],
 
